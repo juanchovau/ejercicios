@@ -15,8 +15,7 @@ body {
     background: rgb(218, 124, 124);
     border: none;
     width: 200px;
-      
-    
+    margin: 2px;
 }
 #email{
     position: relative;
