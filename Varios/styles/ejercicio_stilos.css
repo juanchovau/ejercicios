@@ -1,0 +1,35 @@
+body {
+    background: rgb(241, 241, 220);
+    color: rgb(8, 12, 9);
+    text-align: left;
+    padding: 2%;
+
+}
+.cuerpo {
+    margin: 1px;
+    border: 1px solid rgb(168, 14, 14);
+    width: 300px;
+    padding: 2%;
+}
+.datos {
+    background: rgb(218, 124, 124);
+    border: none;
+    width: 200px;
+      
+    
+}
+#email{
+    position: relative;
+    left: 21px;
+}
+
+#apellido {
+    position: relative;
+    left: 1px;
+}
+.pais{
+    width: 200px;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px hotpink;
+  }
