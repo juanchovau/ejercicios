@@ -1,8 +1,9 @@
 body {
-    background: rgb(241, 241, 220);
+    background: rgba(243, 234, 151, 0.911);
     color: rgb(8, 12, 9);
     text-align: left;
     padding: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 .cuerpo {
@@ -19,16 +20,28 @@ body {
 }
 #email{
     position: relative;
-    left: 21px;
+    left: 18px;
 }
 
 #apellido {
     position: relative;
     left: 1px;
 }
-.pais{
-    width: 200px;
+#pais{
+    width: 100px;
+    border: none;
+    background: rgb(218, 124, 124);
+    position: relative;
+    left: 36px;
 }
 input[type="checkbox"]:checked {
     box-shadow: 0 0 0 3px hotpink;
   }
+
+#boton{
+    background: rgb(187, 42, 42);
+    position: absolute;
+    margin: 1px;
+    border: none;
+    color: seashell;
+}
